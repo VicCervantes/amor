@@ -69,11 +69,11 @@ if st.session_state.mensaje_mostrado and not st.session_state.carta_mostrada:
 
 if st.session_state.carta_mostrada:
     if st.button("Nuestra foto especial 💑"):
-        st.image("c:/Users/vicge/Downloads/Imagen de WhatsApp 2025-02-13 a las 22.02.06_444ca600.jpg", caption="💞 Nuestra foto juntos 💞") 
+        st.image("assets/imagen.jpg", caption="💞 Nuestra foto juntos 💞")
 
 if st.session_state.carta_mostrada:
     if st.button("OMG quien es??🎶"):
         st.session_state.musica_mostrada = True
         st.success("Por cierto, me encontre a un amigo y te dejo un mensaje 🥷")
-        st.audio("c:/Users/vicge/Downloads/fakeyou_m7kjfj2bkxqbf9fj9jry8n6x67mb9sfa.wav", format="audio/mp3")
+        st.audio("assets/audio.wav", format="audio/wav")
         st.image("https://media4.giphy.com/media/G3FNI3FneNjiw/giphy.gif")
