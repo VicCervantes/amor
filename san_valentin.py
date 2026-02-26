@@ -43,7 +43,7 @@ if st.button("Carga tus sorpresas meu 🎁"):
         time.sleep(0.05)
         progress.progress(i + 1)
 
-    st.success("Listo mi bonita, ahora puedes abrir las sorpresas ❤️")
+    st.success("Listo mi bonita, ahora puedes abrir las sorpresas❤️")
 
 if st.session_state.sorpresa_cargada and not st.session_state.mensaje_mostrado:
     if st.button("Mira estas animaciones bien aca xd lol"):
